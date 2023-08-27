@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: rgb(238, 237, 237);
+    min-height: 1200px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.659);
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+    
+}
+/* ------- */
+.dashboard{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.dashboard h1{
+    font-size: 30px;
+    color: green;
+    margin: 10px;
+}
+.border_dashboard{
+    /* border: 2px solid red; */
+    width: max-content;
+    background: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.border_dashboard span{
+    color: green;
+    font-weight: 500;
+}
+.student_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.student_count,.student_catagory{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.student_total,.student-male{
+    width: 250px;
+    height: 60px;
+    background: #ffffff;
+    color: rgb(0, 80, 53);
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px rgb(79, 79, 79);
+    border: none;
+}
+.student_total,.student-male p{
+    font-weight: bold;
+}
+/* -------- */
+.student_onboarding{
+    width: 95%;
+    height: 180px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.test{
+    padding: 10px;
+    font-weight: 500;
+}
+
+.details-student{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    align-items:center ;
+    /* text-align: center; */
+    margin-left:40px ;
+    /* margin-top: 10px; */
+}
+.details-student img{
+    width: 90px;
+    border-radius: 50px;
+}
+.name h3{
+    margin-bottom: 10px;
+}
+.name p{
+    margin-bottom: 5px;
+}
+span{
+    color: rgb(142, 0, 142);
+}
+.student_onboarding a{
+    text-decoration: none;
+    margin-left: 50%;
+
+}
+/* ------- */
+.attandance_list{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 100%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+table thead tr{
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+    
+}
+.table th,
+.table td{
+    padding: 12px 15px;
+    /* text-transform: capitalize; */
+}
+.table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+button{
+    padding: 5px 10px;
+    background: rgb(1, 233, 43);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgba(0, 223, 86, 0.721);
+}
+.btn{
+    background: red;
+}
+.btn:hover{
+    background: rgba(254, 32, 32, 0.753);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
